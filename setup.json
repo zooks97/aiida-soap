@@ -13,7 +13,13 @@
         ]
     },
     "install_requires": [
-        "aiida-core>=1.0.0a1"
+        "aiida-core>=1.0.0a1",
+        "numpy>=1.14.2",
+        "ase>=3.16.0",
+        "numba>=0.39.0",
+        "tqdm>=4.24.0",
+        "psutil>=5.4.6",
+        "seaborn>=0.9.0"
     ],
     "license": "MIT License",
     "name": "aiida_soap",
