@@ -13,7 +13,7 @@ StructureData = DataFactory('structure')
 ArrayData = DataFactory('array')
 
 
-class SOAP(WorkChain):
+class SOAPWorkChain(WorkChain):
 
     @classmethod
     def define(cls, spec):
