@@ -1,0 +1,22 @@
+{
+    "author": "Austin Zadoks",
+    "author_email": "zooks97@gmail.com",
+    "classifiers": [
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 2.7",
+        "Development Status :: 4 - Beta"
+    ],
+    "description": "AiiDA plugin for SOAP fingerprints",
+    "entry_points": {
+        "aiida.workflows": [
+            "soap.soap = aiida_soap.workflows.soap:SOAPWorkChain"
+        ]
+    },
+    "install_requires": [
+        "aiida-core>=1.0.0a1"
+    ],
+    "license": "MIT License",
+    "name": "aiida_soap",
+    "url": "https://github.com/zooks97/aiida-soap",
+    "version": "0.1.0"
+}

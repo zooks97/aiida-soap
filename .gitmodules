@@ -1,0 +1,3 @@
+[submodule "glosim2"]
+	path = glosim2
+	url = https://github.com/cosmo-epfl/glosim2
